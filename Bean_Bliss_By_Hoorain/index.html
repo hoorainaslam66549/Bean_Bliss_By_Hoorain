@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bean Bliss | Coffee Crafted With Love</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="index.html"><span class="logo-mark">☕</span><span>Bean <b>Bliss</b></span></a>
+  <nav class="nav" id="navMenu">
+    <a class="active" href="index.html">Home</a><a href="about.html">About Us</a><a href="products.html">Products</a><a href="contact.html">Contact</a>
+  </nav>
+  <a class="cart-btn" href="cart.html">🛒 Cart <span class="cart-count">0</span></a>
+  <button class="menu-toggle" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">SMALL BATCH • BIG BLISS</p>
+    <h1>Your daily cup,<br><em>made beautiful.</em></h1>
+    <p>Bean Bliss is your neighborhood coffee store serving freshly roasted beans, handcrafted drinks, and warm moments.</p>
+    <div class="hero-actions"><a class="btn primary" href="products.html">Explore Menu</a><a class="btn secondary" href="about.html">Our Story</a></div>
+    <div class="mini-stats"><span><strong>100%</strong> Arabica</span><span><strong>Fresh</strong> Daily Roast</span><span><strong>Cozy</strong> Atmosphere</span></div>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=85" alt="Fresh coffee on a wooden table">
+    <div class="floating-card"><span>★ 4.9</span><small>Loved by coffee people</small></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-heading"><div><p class="eyebrow">FAVORITES</p><h2>Made for your mood</h2></div><a href="products.html" class="text-link">View all →</a></div>
+  <div class="product-grid" id="featuredProducts"></div>
+</section>
+
+<section class="story-strip">
+  <div><p class="eyebrow">WHY BEAN BLISS?</p><h2>Good beans. Honest craft.<br>Genuinely warm service.</h2></div>
+  <div class="features"><div><span>01</span><h3>Freshly Roasted</h3><p>Small-batch roasting keeps every cup aromatic and vibrant.</p></div><div><span>02</span><h3>Handcrafted</h3><p>Our baristas make each drink with care and consistency.</p></div><div><span>03</span><h3>Made to Share</h3><p>A welcoming space for conversations, work, and slow mornings.</p></div></div>
+</section>
+
+<section class="newsletter">
+  <p class="eyebrow">STAY IN THE LOOP</p><h2>Fresh coffee news, straight to your inbox.</h2>
+  <form id="newsletterForm" class="inline-form"><input type="email" id="newsletterEmail" placeholder="Your email address" required><button class="btn primary">Subscribe</button></form>
+</section>
+</main>
+
+<footer class="footer"><div><a class="logo" href="index.html"><span class="logo-mark">☕</span><span>Bean <b>Bliss</b></span></a><p>Crafted cups & cozy moments.</p></div><div><h4>Explore</h4><a href="about.html">About</a><a href="products.html">Menu</a><a href="contact.html">Contact</a></div><div><h4>Follow</h4><a href="https://www.instagram.com/" target="_blank">Instagram</a><a href="https://www.facebook.com/" target="_blank">Facebook</a><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></div><div><h4>Visit</h4><p>12 Coffee Lane, Clifton<br>Karachi, Pakistan<br><b>✉ <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hoorain.66549@iqra.edu.pk" target="_blank">hoorain.66549@iqra.edu.pk</a></b></p></div></footer>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
